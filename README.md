@@ -1,4 +1,4 @@
-# Star Cinema (OOP)
+# Star Cinema Ticket Booking System
 
 A small command-line cinema ticket booking system written in Python as an object-oriented programming exercise (Phitron OOP mid-term exam). A `Star_Cinema` base class keeps a class-level list of halls, and a `Hall` subclass stores its shows and a seat matrix per show using private (name-mangled) attributes. The program starts with one 10 x 10 hall and four sample shows, then runs an interactive booking menu.
 
@@ -19,7 +19,7 @@ A small command-line cinema ticket booking system written in Python as an object
 ## Project structure
 
 ```
-star-cinema-oop/
+Star-Cinema-Ticket-Booking-System/
 ├── main.py     # Star_Cinema and Hall classes, sample data and the menu loop
 └── README.md
 ```
@@ -27,8 +27,8 @@ star-cinema-oop/
 ## Getting started
 
 ```bash
-git clone https://github.com/ratulhasan001/star-cinema-oop.git
-cd star-cinema-oop
+git clone https://github.com/ratulhasan001/Star-Cinema-Ticket-Booking-System.git
+cd Star-Cinema-Ticket-Booking-System
 python3 main.py
 ```
 
